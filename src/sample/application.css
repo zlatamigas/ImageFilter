@@ -1,0 +1,62 @@
+.root {
+    -fx-background-color: linear-gradient(to right, #232526, #414345);
+    -hlight-gradient: linear-gradient(to bottom, #fff9a4, #ffe28a);
+
+    -primary: rgba(255, 255, 255, 0.55);
+    -secondary: #ffef63;
+    -tertiary: #fcc200;
+    -tertiary-armed: #FDDD71;
+}
+
+.highlight-rectangle {
+    -fx-background-color: derive(-primary, 50%);
+    -fx-background-radius: 5px;
+}
+
+.root .label{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 120%;
+}
+
+.text-field {
+    -fill: white;
+    -fx-background-color: -fill;
+}
+
+.radio-button{
+    -fx-text-fill: white;
+}
+
+.radio-button .radio {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button:selected .dot {
+    -fx-background-color: -tertiary;
+}
+
+.button {
+    -fill: white;
+
+    -fx-font-size: 100%;
+    -fx-font-weight: bold;
+
+    -fx-background-color: -fill;
+}
+
+.button:hover {
+    -fill: -tertiary;
+}
+
+.button:armed {
+    -fill: -tertiary-armed;
+}
+
+.text-field {
+    -fx-accent: -tertiary-armed ;
+}
+
+.list-view .list-cell:selected{
+    -fx-background-color: -tertiary-armed;
+    -fx-text-fill: #313232;
+}
