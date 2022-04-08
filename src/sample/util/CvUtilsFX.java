@@ -1,6 +1,5 @@
 package sample.util;
 
-import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.image.*;
@@ -10,15 +9,7 @@ import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.imgproc.Imgproc;
 
-import java.awt.image.BufferedImage;
-
 public class CvUtilsFX {
-
-    public static WritableImage MatToWritableImage(Mat m) {
-        BufferedImage bim = CvUtils.MatToBufferedImage(m);
-        if (bim == null) return null;
-        else return SwingFXUtils.toFXImage(bim, null);
-    }
 
     public static WritableImage MatToImageFX(Mat m) {
         if (m == null || m.empty()) {
