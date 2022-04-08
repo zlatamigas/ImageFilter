@@ -21,11 +21,14 @@
 
 ## Вариант 18
 
-1. Реализация высокочастотных фильтров (увеличение резкости) с разной маской.
+1. Реализация высокочастотных фильтров (увеличение резкости) с выбором маски.
 2. Морфологическая обработка с выбором метода и структурирующего элемента.
 
 ## Реализация
+
+<p align="center">
+  <kbd> <img alt="ImageFilter_1_gif" src="https://user-images.githubusercontent.com/64004682/162486536-91b5c40f-f52f-4715-b306-cd3d7d626c53.gif" width="1000" style="border-radius:10px"\></kbd> 
 </p>
 <p align="center">
-  <kbd> <img alt="ImageFilter_gif" src="https://user-images.githubusercontent.com/64004682/162480662-20b52058-e6d3-4346-ab13-c2f131daa128.gif" width="1000" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="ImageFilter_2_gif" src="https://user-images.githubusercontent.com/64004682/162486555-1f162aaa-4836-4b6f-b34f-9925d746f939.gif" width="1000" style="border-radius:10px"\></kbd> 
 </p>
