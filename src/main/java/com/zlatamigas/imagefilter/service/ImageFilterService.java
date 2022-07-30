@@ -1,4 +1,4 @@
-package sample.service;
+package com.zlatamigas.imagefilter.service;
 
 import org.opencv.core.Mat;
 

@@ -1,4 +1,4 @@
-package sample.util;
+package com.zlatamigas.imagefilter.util;
 
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;

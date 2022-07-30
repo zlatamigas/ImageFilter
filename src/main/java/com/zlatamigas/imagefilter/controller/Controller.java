@@ -1,4 +1,4 @@
-package sample;
+package com.zlatamigas.imagefilter.controller;
 
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
@@ -11,9 +11,9 @@ import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
-import sample.service.ImageFilterService;
-import sample.service.impl.ImageFilterServiceImpl;
-import sample.util.CvUtilsFX;
+import com.zlatamigas.imagefilter.service.ImageFilterService;
+import com.zlatamigas.imagefilter.service.impl.ImageFilterServiceImpl;
+import com.zlatamigas.imagefilter.util.CvUtilsFX;
 
 import java.io.File;
 import java.net.URL;

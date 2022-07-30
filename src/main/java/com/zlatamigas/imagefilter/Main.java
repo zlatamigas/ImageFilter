@@ -1,5 +1,6 @@
-package sample;
+package com.zlatamigas.imagefilter;
 
+import com.zlatamigas.imagefilter.controller.Controller;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,9 +12,9 @@ import org.opencv.core.Core;
 public class Main extends Application {
 
     private static String APP_NAME = "Image filter";
-    private static String APP_PAGE = "sample.fxml";
-    private static String STYLESHEET = "application.css";
-    private static String ICON = "icon.png";
+    private static String APP_PAGE = "/view/app.fxml";
+    private static String STYLESHEET = "/static/application.css";
+    private static String ICON = "/static/icon.png";
 
     static {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
@@ -39,7 +40,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-
         launch(args);
     }
 }

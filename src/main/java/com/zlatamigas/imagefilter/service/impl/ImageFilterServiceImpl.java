@@ -1,9 +1,9 @@
-package sample.service.impl;
+package com.zlatamigas.imagefilter.service.impl;
 
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
 import org.opencv.imgproc.Imgproc;
-import sample.service.ImageFilterService;
+import com.zlatamigas.imagefilter.service.ImageFilterService;
 
 import static org.opencv.imgproc.Imgproc.filter2D;
 
