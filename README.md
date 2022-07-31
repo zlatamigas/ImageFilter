@@ -11,6 +11,13 @@ Windows App that implements image filters:
 <p align="center">
   <kbd> <img alt="ImageFilter_1_gif" src="https://user-images.githubusercontent.com/64004682/162486536-91b5c40f-f52f-4715-b306-cd3d7d626c53.gif" width="100%" style="border-radius:10px"\></kbd> 
 </p>
+</p>
+<p align="center">High-frequency filters with mask selection</p>
+<br>
+
 <p align="center">
   <kbd> <img alt="ImageFilter_2_gif" src="https://user-images.githubusercontent.com/64004682/162486555-1f162aaa-4836-4b6f-b34f-9925d746f939.gif" width="100%" style="border-radius:10px"\></kbd> 
 </p>
+</p>
+<p align="center">Morphological processing with method and structuring element selection</p>
+<br>
